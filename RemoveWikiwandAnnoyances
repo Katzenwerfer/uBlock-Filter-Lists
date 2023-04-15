@@ -1,0 +1,8 @@
+! Title: No Wikiwand Extension
+! Expires: 28 days
+! Homepage: https://gist.github.com/Katzenwerfer/f622c53ebd177eba574ca93893641b8f
+! Description: Remove some annoying items from Wikiwand pages
+
+www.wikiwand.com##.navbar_install__Hg9Gg
+www.wikiwand.com##.footer_wrapper__zGJI_
+www.wikiwand.com##.article_footerStickyAd__wvdui
