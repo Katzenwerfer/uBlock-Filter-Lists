@@ -6,3 +6,6 @@
 !!Remove Super Reaction buttons
 discord.com##div[aria-label="Add Super Reaction"]
 discord.com##button[id="super-reaction-picker-tab"]
+
+!!Remove Super Reactions from messages
+discord.com##div[aria-label*="Super reacted"]
