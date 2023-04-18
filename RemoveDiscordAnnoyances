@@ -10,5 +10,5 @@ discord.com##div[id="message-add-reaction-1"]
 
 !!Remove Super Reactions from messages
 discord.com##div[aria-label*="Super reacted"]
-discord.com##div[aria-label*="super reaction"]
-discord.com##div[aria-label*="super reactions"]
+discord.com##div[aria-label*="super reaction"]:upward(1)
+discord.com##div[aria-label*="super reactions"]:upward(1)
