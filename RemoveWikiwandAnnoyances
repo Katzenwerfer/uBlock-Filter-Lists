@@ -2,6 +2,7 @@
 ! Expires: 28 days
 ! Homepage: https://github.com/Katzenwerfer/uBlock-Filter-Lists/blob/master/RemoveWikiwandAnnoyances
 ! Description: Remove some annoying items from Wikiwand pages
+! Deprecation: It doesn't seem like Wikiwand still has issues with the hidden items.
 
 www.wikiwand.com##.navbar_install__Hg9Gg
 www.wikiwand.com##.footer_wrapper__zGJI_
