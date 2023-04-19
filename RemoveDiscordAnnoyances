@@ -13,6 +13,11 @@ discord.com##div[aria-label*="Super reacted"]
 discord.com##div[aria-label*="super reaction"]:upward(1)
 discord.com##div[aria-label*="super reactions"]:upward(1)
 
+!!Prevent "Someone is typing" animation from playing
+!!WIP
+!!!<div class="typing-2J1mQU base-3bcbY3 stop-animation">
+!discord.com##div[class*="typing-2J1mQU base-3bcbY3"]
+
 !!Remove annoying buttons from voice chat
 discord.com##button[aria-label="Open Soundboard"]:upward(1)
 discord.com##div[class*="voiceEffectsActionBar"]
