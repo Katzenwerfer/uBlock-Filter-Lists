@@ -2,3 +2,7 @@
 ! Expires: 28 days
 ! Homepage: https://github.com/Katzenwerfer/uBlock-Filter-Lists/blob/master/RemoveRedditAnnoyances
 ! Description: Remove some annoying items from Reddit pages
+
+reddit.com##button[id="COIN_PURCHASE_DROPDOWN_ID"]:upward(1)
+reddit.com##div[class="_3RPJ8hHnfFohktLZca18J6 "]:upward(2)
+reddit.com##a[aria-label="Advertise"]:upward(1)
