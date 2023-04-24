@@ -1,0 +1,6 @@
+! Title: Remove ChatGPT Annoyances
+! Expires: 28 days
+! Homepage: https://github.com/Katzenwerfer/uBlock-Filter-Lists/blob/master/RemoveChatGPTAnnoyances
+! Description: Remove some annoying items from the ChatGPT interface
+
+chat.openai.com##span[class*=gold-new-button]:upward(2)
