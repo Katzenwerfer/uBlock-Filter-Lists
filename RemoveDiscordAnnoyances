@@ -24,3 +24,6 @@ discord.com##button[aria-label="Open Soundboard"]:upward(1)
 discord.com##div[class*="voiceEffectsActionBar"]
 discord.com##button[aria-label="Transfer to Console"]:upward(1)
 discord.com##div[class="buttonContainer-1sjtPU"]
+
+!!Remove annoying buttons from text box
+discord.com##button[aria-label="Send a gift"]
