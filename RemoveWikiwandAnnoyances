@@ -3,5 +3,5 @@
 ! Homepage: https://github.com/Katzenwerfer/uBlock-Filter-Lists/blob/master/RemoveWikiwandAnnoyances
 ! Description: Remove some annoying items from Wikiwand pages
 
-www.wikiwand.com##div[class*="navbar_install"]
-www.wikiwand.com##footer[class*="footer_wrapper"]
+wikiwand.com##div[class*="navbar_install"]
+wikiwand.com##footer[class*="footer_wrapper"]
