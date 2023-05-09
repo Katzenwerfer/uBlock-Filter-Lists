@@ -4,5 +4,5 @@
 ! Description: Fix compatibility of the PPixiv userscript with the Fanboy's Annoyance list
 ! NOTE: You will likely need to add this as a user filter rather than a filter list
 
-www.pixiv.net#@#.follow-icon
-www.pixiv.net#@#.follow-widget
+pixiv.net#@#.follow-icon
+pixiv.net#@#.follow-widget
