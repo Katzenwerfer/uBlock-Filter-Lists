@@ -1,6 +1,6 @@
 ! Title: Remove Fandom Userscripts Annoyances
 ! Expires: 28 days
-! Homepage: https://github.com/Katzenwerfer/uBlock-Filter-Lists/blob/master/RemoveChatGPTAnnoyances
+! Homepage: https://github.com/Katzenwerfer/uBlock-Filter-Lists/blob/master/RemoveFandomUserscriptsAnnoyances
 ! Description: Remove some annoying items from the ChatGPT interface
 
 fandom.com##div[class*="registration-buttons"]
