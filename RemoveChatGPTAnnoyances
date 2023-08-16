@@ -4,4 +4,5 @@
 ! Description: Remove some annoying items from the ChatGPT interface
 
 chat.openai.com##span[class*=gold-new-button]:upward(2)
-chat.openai.com##a[href*="https://help.openai.com/"]
+chat.openai.com##li[data-testid="gpt-4-upsell"]:upward(4)
+chat.openai.com##a[href*="https://help.openai.com/"]:upward(2)
