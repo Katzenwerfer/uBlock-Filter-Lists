@@ -1,6 +1,6 @@
 ! Title: Clickable Pixiv premium banner posts
 ! Expires: 14 days
-! Homepage: https://github.com/Katzenwerfer/uBlock-Filter-Lists/blob/master/PixivPremiumBannerPosts
+! Homepage: https://github.com/Katzenwerfer/uBlock-Filter-Lists/blob/master/PixivPremiumBannerPosts.txt
 ! Description: Allows to click on the posts that are showcased in Pixiv premium banner ADs
 
 pixiv.net##a[aria-label="pixiv Premium Free Trial"]
