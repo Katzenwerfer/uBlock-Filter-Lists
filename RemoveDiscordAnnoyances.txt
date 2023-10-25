@@ -1,39 +1,35 @@
+! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !
 ! Title: Remove Discord Annoyances
 ! Expires: 14 days
-! Homepage: https://github.com/Katzenwerfer/uBlock-Filter-Lists/blob/master/RemoveDiscordAnnoyances.txt
+! Homepage: https://github.com/Katzenwerfer/uBlock-Filter-Lists/blob/master/RemoveDiscordAnnoyances
 ! Description: Remove some annoying items from the Discord interface
 
-!!Remove Super Reaction buttons
+!!Remove Super Reactions
 discord.com##div[aria-label="Add Super Reaction"]
 discord.com##button[id="super-reaction-picker-tab"]:upward(1)
 discord.com##div[id="message-add-reaction-1"]
-discord.com##div[id="message-actions-add-reaction-1"]
-
-!!Remove Super Reactions from messages
-discord.com##div[aria-label*="Super reacted"]
 discord.com##div[aria-label*="super reaction"]:upward(1)
 discord.com##div[aria-label*="super reactions"]:upward(1)
+
+!!Remove annoying buttons from voice chat
+discord.com##button[aria-label="Open Soundboard"]:upward(1)
+discord.com##button[aria-label="Soundboard disabled when deafened"]:upward(2)
+discord.com##div[class*="voiceEffectsActionBar"]
+discord.com##button[aria-label="Start an Activity"]:upward(3)
+
+!!Remove nitro advertisements
+discord.com##button[aria-label="Send a gift"]
+discord.com##a[data-list-item-id*="___nitro"]:upward(2)
+discord.com##a[data-list-item-id*="___shop"]:upward(2)
+discord.com##div[class="eyebrow_e5a66c headerText__94c22"]:has-text(Billing Settings):upward(1)
+discord.com##div[class="premiumTab__57bdc item__48dda themed_b957e8"]
+discord.com##div[class="item__48dda themed_b957e8"]:has-text(Server Boost)
+discord.com##div[aria-label="Subscriptions"]
+discord.com##div[aria-label="Gift Inventory"]
+discord.com##div[class="item__48dda themed_b957e8"]:has-text(Billing)
 
 !!Prevent "Someone is typing" animation from playing
 !!WIP
 !!!<div class="typing-2J1mQU base-3bcbY3 stop-animation">
 !!!<svg class="ellipsis-1e7x0D dots-1k2MxY themed-3dHGSa">
-discord.com##svg[class*="ellipsis-1e7x0D dots-1k2MxY"]
-
-!!Remove annoying buttons from voice chat
-discord.com##button[aria-label="Open Soundboard"]:upward(1)
-discord.com##div[class*="voiceEffectsActionBar"]
-discord.com##button[aria-label="Transfer to Console"]:upward(1)
-discord.com##div[class="buttonContainer-1sjtPU"]
-
-!!Remove annoying buttons from text box
-discord.com##button[aria-label="Send a gift"]
-
-!!Remove nitro advertisements
-discord.com##a[data-list-item-id="private-channels-uid_23___nitro"]:upward(2)
-discord.com##div[class="eyebrow-1Shfyi headerText-10ez_d"]:has-text(Billing Settings):upward(1)
-discord.com##div[class="premiumTab-39eQzY item-2GWPIy themed-qqoYp3"]
-discord.com##div[class="item-2GWPIy themed-qqoYp3"]:has-text(Server Boost)
-discord.com##div[aria-label="Subscriptions"]
-discord.com##div[aria-label="Gift Inventory"]
-discord.com##div[class="item-2GWPIy themed-qqoYp3"]:has-text(Billing)
+!discord.com##svg[class*="ellipsis-1e7x0D dots-1k2MxY"]
