@@ -5,4 +5,5 @@
 
 chat.openai.com##span[class*=gold-new-button]:upward(2)
 chat.openai.com##li[data-testid="gpt-4-upsell"]:upward(4)
-chat.openai.com##a[href*="https://help.openai.com/"]:upward(2)
+chat.openai.com##a[href*="https://help.openai.com/"]:upward(1)
+chat.openai.com##button[id="headlessui-menu-button-:rg:"]:upward(2)
