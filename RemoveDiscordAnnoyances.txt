@@ -1,4 +1,3 @@
-! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! ! !
 ! Title: Remove Discord Annoyances
 ! Expires: 14 days
 ! Homepage: https://github.com/Katzenwerfer/uBlock-Filter-Lists/blob/master/RemoveDiscordAnnoyances
@@ -15,7 +14,6 @@ discord.com##div[aria-label*="super reactions"]:upward(1)
 discord.com##button[aria-label="Open Soundboard"]:upward(1)
 discord.com##button[aria-label="Soundboard disabled when deafened"]:upward(2)
 discord.com##div[class*="voiceEffectsActionBar"]
-discord.com##button[aria-label="Start an Activity"]:upward(3)
 
 !!Remove nitro advertisements
 discord.com##button[aria-label="Send a gift"]
