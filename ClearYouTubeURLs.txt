@@ -1,0 +1,8 @@
+! Title: Clear YouTube URLs
+! Expires: 14 days
+! Homepage: https://github.com/Katzenwerfer/uBlock-Filter-Lists/blob/master/ClearYouTubeURLs.txt
+! Description: Remove useless parameters from YouTube URLs
+
+||youtube.com^$removeparam=bp
+||youtube.com^$removeparam=pp
+||youtube.com^$removeparam=si
