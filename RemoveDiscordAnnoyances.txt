@@ -26,8 +26,7 @@ discord.com##div[aria-label="Subscriptions"]
 discord.com##div[aria-label="Gift Inventory"]
 discord.com##div[class="item__48dda themed_b957e8"]:has-text(Billing)
 
-!!Prevent "Someone is typing" animation from playing
-!!WIP
-!!!<div class="typing-2J1mQU base-3bcbY3 stop-animation">
-!!!<svg class="ellipsis-1e7x0D dots-1k2MxY themed-3dHGSa">
-!discord.com##svg[class*="ellipsis-1e7x0D dots-1k2MxY"]
+!!Remove buttons from the server list
+discord.com##div[data-list-item-id="guildsnav___create-join-button"]:upward(5)
+discord.com##div[data-list-item-id="guildsnav___guild-discover-button"]:upward(5)
+discord.com##div[data-list-item-id="guildsnav___app-download-button"]:upward(5)
