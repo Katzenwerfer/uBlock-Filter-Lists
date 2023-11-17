@@ -3,5 +3,5 @@
 ! Homepage: https://github.com/Katzenwerfer/uBlock-Filter-Lists/blob/master/RemoveChatGPTAnnoyances.txt
 ! Description: Remove some annoying items from the ChatGPT interface
 
-chat.openai.com##span[class="gizmo:font-semibold"]:has-text(Upgrade):upward(4)
 chat.openai.com##li[data-testid="gpt-4-upsell"]:upward(4)
+chat.openai.com##span[class="gizmo:font-semibold"]:has-text(Upgrade):upward(4)
