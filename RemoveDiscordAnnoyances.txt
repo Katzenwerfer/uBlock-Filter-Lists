@@ -12,16 +12,14 @@ discord.com##button[aria-label="Open Soundboard"]:upward(1)
 discord.com##button[aria-label="Soundboard disabled when deafened"]:upward(2)
 discord.com##div[class*="voiceEffectsActionBar"]
 
-!!Remove nitro advertisements
-discord.com##a[data-list-item-id*="___nitro"]:upward(2)
-discord.com##a[data-list-item-id*="___shop"]:upward(2)
-discord.com##button[aria-label="Send a gift"]
-discord.com##div[aria-label="Gift Inventory"]
-discord.com##div[aria-label="Subscriptions"]
-discord.com##div[class="item__48dda themed_b957e8"]:has-text(Billing)
-discord.com##div[class="item__48dda themed_b957e8"]:has-text(Server Boost)
-discord.com##div[class="premiumTab__57bdc item__48dda themed_b957e8"]
+!!Remove sections related to paid content
+discord.com##a[href="/shop"]:upward(2)
 discord.com##div[data-text-variant="eyebrow"]:has-text(Billing Settings):upward(1)
+discord.com##div[data-tab-id="Discord Nitro"]
+discord.com##div[data-tab-id="Nitro Server Boost"]
+discord.com##div[data-tab-id="Subscriptions"]
+discord.com##div[data-tab-id="Library Inventory"]
+discord.com##div[data-tab-id="Billing"]
 
 !!Remove buttons from the server list
 discord.com##div[data-list-item-id="guildsnav___create-join-button"]:upward(6)
