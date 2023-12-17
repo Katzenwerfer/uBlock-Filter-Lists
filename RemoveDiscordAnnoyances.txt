@@ -4,11 +4,8 @@
 ! Description: Remove some annoying items from the Discord interface
 
 !!Remove Super Reactions
-discord.com##button[id="super-reaction-picker-tab"]:upward(1)
-discord.com##div[aria-label*="super reaction"]:upward(1)
-discord.com##div[aria-label*="super reactions"]:upward(1)
-discord.com##div[aria-label="Add Super Reaction"]
-discord.com##div[id="message-add-reaction-1"]
+!!Currently WIP due to recent discord changes
+discord.com##input[id="burst-reaction-toggle-button"]:upward(2)
 
 !!Remove annoying buttons from voice chat
 discord.com##button[aria-label="Open Soundboard"]:upward(1)
