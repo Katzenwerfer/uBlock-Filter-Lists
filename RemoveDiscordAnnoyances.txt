@@ -6,6 +6,7 @@
 !!Remove Super Reactions
 !!Currently WIP due to recent discord changes
 discord.com##input[id="burst-reaction-toggle-button"]:upward(2)
+discord.com##div[class*="burstGlow"]:upward(3)
 
 !!Remove annoying buttons from voice chat
 discord.com##button[aria-label="Open Soundboard"]:upward(1)
