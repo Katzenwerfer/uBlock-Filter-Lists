@@ -12,6 +12,7 @@ discord.com##div[class*="burstGlow"]:upward(3)
 discord.com##button[aria-label="Open Soundboard"]:upward(1)
 discord.com##button[aria-label="Soundboard disabled when deafened"]:upward(2)
 discord.com##div[class*="voiceEffectsActionBar"]
+discord.com##div[aria-label="Add a status"]:upward(1)
 
 !!Remove sections related to paid content
 discord.com##a[href="/shop"]:upward(2)
