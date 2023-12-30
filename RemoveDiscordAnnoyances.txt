@@ -16,6 +16,7 @@ discord.com##div[aria-label="Add a status"]:upward(1)
 
 !!Remove sections related to paid content
 discord.com##a[href="/shop"]:upward(2)
+discord.com##a[href="/store"]:upward(2)
 discord.com##button[aria-label="Send a gift"]:upward(2)
 discord.com##div[data-text-variant="eyebrow"]:has-text(Billing Settings):upward(1)
 discord.com##div[data-tab-id="Discord Nitro"]
