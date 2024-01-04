@@ -2,7 +2,6 @@
 ! Expires: 14 days
 ! Homepage: https://github.com/Katzenwerfer/uBlock-Filter-Lists/blob/master/RemoveDiscordAnnoyances
 ! Description: Remove some annoying items from the Discord interface
-!.
 
 !!Remove Super Reactions
 !!Currently WIP due to recent discord changes
