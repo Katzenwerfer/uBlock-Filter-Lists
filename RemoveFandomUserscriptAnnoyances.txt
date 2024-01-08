@@ -3,5 +3,5 @@
 ! Homepage: https://github.com/Katzenwerfer/uBlock-Filter-Lists/blob/master/RemoveFandomUserscriptsAnnoyances.txt
 ! Description: Remove some annoying leftovers from the userscripts "Hydralize" and "Fandom.com --- Cleaner Wikis Userscript"
 
-fandom.com##div[class="global-registration-buttons"]
-fandom.com##footer[class="global-footer"]
+fandom.com##.global-registration-buttons
+fandom.com##.global-footer
