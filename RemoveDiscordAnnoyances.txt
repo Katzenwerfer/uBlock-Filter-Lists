@@ -4,29 +4,36 @@
 ! Description: Remove some annoying items from the Discord interface
 ! NOTE: This list might not be updated as I am not using Discord in the browser anymore
 
-!!Remove Super Reactions
-!!Currently WIP due to recent discord changes
-discord.com##input[id="burst-reaction-toggle-button"]:upward(2)
-discord.com##div[class*="burstGlow"]:upward(3)
+!! Hides super reaction elements
+discord.com##[aria-label*="super reaction"]:upward(1)
+discord.com##.burstToggle__5e176
 
-!!Remove annoying buttons from voice chat
-discord.com##button[aria-label="Open Soundboard"]:upward(1)
-discord.com##button[aria-label="Soundboard disabled when deafened"]:upward(2)
-discord.com##div[class*="voiceEffectsActionBar"]
-discord.com##div[aria-label="Add a status"]:upward(1)
+!! Hides general UI elements
+discord.com##[aria-label="Help"]
+discord.com##[aria-label="Send a gift"]
+discord.com##.tutorialContainer_dc6fde
+discord.com##[aria-label="Explore Discoverable Servers"]:upward(5)
+discord.com##.tutorialContainer_dc6fde+.listItem_fa7b36+.listItem_fa7b36
+discord.com##[aria-label="Download Apps"]:upward(5)
 
-!!Remove sections related to paid content
-discord.com##a[href="/shop"]:upward(2)
-discord.com##a[href="/store"]:upward(2)
-discord.com##button[aria-label="Send a gift"]
-discord.com##div[data-text-variant="eyebrow"]:has-text(Billing Settings):upward(1)
-discord.com##div[aria-label="Nitro"]
-discord.com##div[class="item__48dda themed_b957e8"]:has-text(Server Boost)
-discord.com##div[aria-label="Subscriptions"]
-discord.com##div[aria-label="Gift Inventory"]
-discord.com##div[class="item__48dda themed_b957e8"]:has-text(Billing)
+!! Hide elements when connected to a call
+discord.com##.voiceEffectsActionBar__9d61c
+discord.com##[aria-label="Open Soundboard"]:upward(1)
+discord.com##[aria-label="Soundboard disabled when deafened"]:upward(2)
 
-!!Remove buttons from the server list
-discord.com##div[data-list-item-id="guildsnav___create-join-button"]:upward(6)
-discord.com##div[data-list-item-id="guildsnav___app-download-button"]:upward(5)
-discord.com##div[data-list-item-id="guildsnav___guild-discover-button"]:upward(5)
+! Hides advertisements in DMs tab
+discord.com##[href="/store"]:upward(2)
+discord.com##[href="/shop"]:upward(2)
+
+! Hides advertisements within profiles tab in settings
+discord.com##.shopForAllBackgroundImage__009d9
+discord.com##.premiumFeatureBorder__9bbb3
+
+! Hides buttons within billing settings section of settings
+discord.com##.eyebrow_f53856:has-text(Billing Settings):upward(1)
+discord.com##[aria-label="Nitro"]
+discord.com##[aria-label="Nitro"]+.item__48dda
+discord.com##[aria-label="Subscriptions"]
+discord.com##[aria-label="Gift Inventory"]
+discord.com##[aria-label="Gift Inventory"]+.item__48dda
+discord.com##[aria-label="Gift Inventory"]+.item__48dda+.separator_fdbcfd
