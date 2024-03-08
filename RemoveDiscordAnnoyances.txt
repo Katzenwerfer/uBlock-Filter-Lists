@@ -12,22 +12,24 @@ discord.com##.burstToggle__5e176
 discord.com##[aria-label="Help"]
 discord.com##[aria-label="Send a gift"]
 discord.com##.tutorialContainer_dc6fde
-discord.com##[aria-label="Explore Discoverable Servers"]:upward(5)
+discord.com##[aria-label="Explore Discoverable Servers"]:upward(.listItem_fa7b36)
 discord.com##.tutorialContainer_dc6fde+.listItem_fa7b36+.listItem_fa7b36
-discord.com##[aria-label="Download Apps"]:upward(5)
+discord.com##[aria-label="Download Apps"]:upward(.listItem_fa7b36)
 
 !! Hide elements when connected to a call
 discord.com##.voiceEffectsActionBar__9d61c
-discord.com##[aria-label="Open Soundboard"]:upward(1)
-discord.com##[aria-label="Soundboard disabled when deafened"]:upward(2)
+discord.com##[aria-label="Open Soundboard"]:upward(div)
+discord.com##[aria-label="Soundboard disabled when deafened"]:upward(div)
 
 ! Hides advertisements in DMs tab
 discord.com##[href="/store"]:upward(2)
 discord.com##[href="/shop"]:upward(2)
+discord.com##.giftButtonContainer__68103
 
 ! Hides advertisements within profiles tab in settings
 discord.com##.shopForAllBackgroundImage__009d9
 discord.com##.premiumFeatureBorder__9bbb3
+discord.com##.upsellOverlayContainer__08979
 
 ! Hides buttons within billing settings section of settings
 discord.com##.eyebrow_f53856:has-text(Billing Settings):upward(1)
