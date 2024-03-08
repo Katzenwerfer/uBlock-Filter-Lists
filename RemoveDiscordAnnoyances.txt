@@ -22,8 +22,8 @@ discord.com##[aria-label="Open Soundboard"]:upward(div)
 discord.com##[aria-label="Soundboard disabled when deafened"]:upward(div)
 
 ! Hides advertisements in DMs tab
-discord.com##[href="/store"]:upward(2)
-discord.com##[href="/shop"]:upward(2)
+discord.com##[href="/store"]:upward(li)
+discord.com##[href="/shop"]:upward(li)
 discord.com##.giftButtonContainer__68103
 
 ! Hides advertisements within profiles tab in settings
@@ -32,7 +32,7 @@ discord.com##.premiumFeatureBorder__9bbb3
 discord.com##.upsellOverlayContainer__08979
 
 ! Hides buttons within billing settings section of settings
-discord.com##.eyebrow_f53856:has-text(Billing Settings):upward(1)
+discord.com###div[class="header_f72511"]:has(+[aria-label="Nitro"])
 discord.com##[aria-label="Nitro"]
 discord.com##[aria-label="Nitro"]+.item__48dda
 discord.com##[aria-label="Subscriptions"]
