@@ -3,9 +3,6 @@
 ! Homepage: https://github.com/Katzenwerfer/uBlock-Filter-Lists/blob/master/RemoveChatGPTAnnoyances.txt
 ! Description: Remove some annoying items from the ChatGPT interface
 
-chatgpt.com##[role=menuitem]:has-text(Sign up for ChatGPT Plus)
-chatgpt.com##[role="presentation"] form>div>div:has([href="https://openai.com/terms"])
-chatgpt.com##div.mb-4
-chat.openai.com##[role=menuitem]:has-text(Sign up for ChatGPT Plus)
-chat.openai.com##[role="presentation"] form>div>div:has([href="https://openai.com/terms"])
-chat.openai.com##div.mb-4
+chatgpt.com##span:has-text(Upgrade):upward(div.flex)
+chatgpt.com##div[role="menuitem"]:has-text(Upgrade)
+chatgpt.com##div[role="menuitem"]:has-text(Sign up for ChatGPT Plus)
